@@ -9,7 +9,7 @@ class BankAccount:
         password = input('Parool: ')
         #print(username, password)
         if username == self.username and password == self.password:
-            print('Kasutaja tuvastatud')
+            #print('Kasutaja tuvastatud')
             self.show_menu()
         else:
             print('Vale kasutajanimi või parool.')
